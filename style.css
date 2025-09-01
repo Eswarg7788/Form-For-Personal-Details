@@ -1,0 +1,89 @@
+.logo {
+  display: block;
+  margin: 0 auto 15px;   
+  width: 200px;           
+  height: auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url("image/hoz-bgyears.png") no-repeat center center fixed;
+}
+
+.container {
+  background-image: url("image/images.jpg");
+  width: 500px;
+  background: white;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.form-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+
+  /* background image for the form box */
+  background: url("image/images.jpg") no-repeat center center;
+  background-size: cover;
+
+  /* optional: make text readable */
+  color: #000; 
+  background-color: rgba(255, 255, 255, 0.8); /* white overlay with transparency */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom:20px;
+  color: #333;
+}
+
+label {
+    font-style: italic;
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+fieldset {
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+legend {
+  font-weight: bold;
+  color: #444;
+}
+
+button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100px;
+  position: relative;
+  left: 180px;
+}
+
+button:hover {
+  background: #0e2339;
+}
+.ww{
+  width: 200px;
+}
